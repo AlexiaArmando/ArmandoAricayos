@@ -25,7 +25,7 @@ class boots extends CI_Controller {
 		}
 		
 		$data['students'] = $students;
-		$header_data['title'] = "View Students";
+		$header_data['title'] = "Student Management System";
 		$this->load->view('include/header1',$header_data);
 		$this->load->view('students/content',$data);
 		$this->load->view('include/footer');

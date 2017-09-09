@@ -1,17 +1,6 @@
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-12 header">	
-			<h1> Hello Bootstrap </h1>
-		</div>
-	</div>
 
-	<div class="row">
-		<div class="col-md-4 bg-primary">
-			<p class="lead">Menu</p>
-		</div>
-
-		<div class="col-md-8 contents">
-	<p class="lead">Add new student</p>
+		<div class="col-md-8 content">
+		<p class="lead">Add new student</p>
 				<form role="form" method="POST">
 					<div class="form-group">
 						<label for="idno">ID No.:</label>

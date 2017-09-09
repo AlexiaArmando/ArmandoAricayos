@@ -1,18 +1,8 @@
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-12 header">	
-			<h1> Hello Bootstrap </h1>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col-md-4 col-xs-4 col-sm-4 bg-danger">
-			<a href=""><p class="lead">Menu</p></a>
-			<a href=""><p class="lead">Students</p></a>
-		</div>
-		<table border="1">
+<div class="col-md-4 col-xs-4 col-sm-4 column2">
+
+	<table class="table table-striped table_front">
 	<thead>
-	<tr>
+	<tr class="info">
 		<th>ID NO.</th>
 		<th>LAST NAME</th>
 		<th>FIRST NAME</th>
@@ -44,8 +34,7 @@
 	</tbody>
 	</table>
 	<div class="">
-				<a href="boots/add_student" class="btn btn-danger btn-xs">New Student</a>
-			</div>
+				<a href="boots/add_student" class="btn btn-danger btn-md button">New Student</a>
 	</div>
 </div>
 </div>
